@@ -1,6 +1,12 @@
 # Covid-Vaccination
 
+
 This Project is a portal so that a user can use to find nearby available Vaccine Centres and also can book a slot..<br>
+<h3>Note: </h3>Run this python code in online compiler as it has requires libraries installed whose link given below<br> Website: https://trinket.io/embed/python3/f03e855da4
+    
+ <br>Admin perks In code :<br>
+    mail = "admin@gmail.com"<br>
+    password  = "admin"<br>
 <br>Types of Roles:
 <li>User
 <li>Admin<br>
@@ -18,9 +24,5 @@ This Project is a portal so that a user can use to find nearby available Vaccine
   Backend : Python<br>
   Database : MYSQL<br>
     
- <h2>Note: </h2>Run this python code in online compiler as it has requires libraries installed whose link given below<br> Website: https://trinket.io/embed/python3/f03e855da4
-    
- Admin perks In code :<br>
-    mail = "admin@gmail.com"<br>
-    password  = "admin"
+ 
     
