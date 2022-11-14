@@ -178,8 +178,9 @@ while True :
         query = f"insert into vaccine_locations(hospitalname,state,address,pincode,availabledosage) values('{hname}','{hstate}','{hadd}','{hpin}',{hdos})"
         
         cursor.execute(query)
-        print("New Center Added Successfully....")
+        print("\nNew Center Added Successfully....\n")
         br = input("-->Enter 1 to logout\nEnter any key to continue: ")
+        print("\n")
         if br == '1' :
           break
         else :
