@@ -8,20 +8,10 @@ Please rerun the program if the connection to the database is lost<br>
  <br>Admin perks In code :<br>
     mail = "admin@gmail.com"<br>
     password  = "admin"<br>
-<br>Types of Roles:
-<li>User
-<li>Admin<br>
- <br>Users Operations<br>
-<li>Register<li>Login<li>Search For Vaccinations Centres<li>Apply for vaccination<logout><br>
-  <br>Admin Operations<br>
-  <li>login
-  <li>Sign Up
-  <li>Add Vaccination Centres
-  <li>Apply For Vaccinations
-  <li>Remove Vaccinations Centres
-  <li>logout<br><br>
+<br>I also attached two static HTML pages for login and register but I haven't connected them to the backend instead I wrote full backend code in python.<br>
+The front part for my project is online compiler console which I provided above.
   
-  Frontend : Online Python Compiler<br>
+  <Br>Frontend : Online Python Compiler<br>
   Backend : Python<br>
   Database : MYSQL<br>
     
