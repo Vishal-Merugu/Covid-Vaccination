@@ -88,12 +88,12 @@ while True :
           
           while hc[0] > 10 :
             hid = int(input('\nEnter Hospital ID from above available Centers: '))
-            testquery = f"select count(*) from login_details as ld where ld.hospitalid = {hid}"
+            testquery = f"select count(*) from login_details as ld where ld.hospitalid = {hid} and ld.vaccinedate = curdate()"
             cursor.execute(testquery)
             hc = cursor.fetchone()
             con.commit()
             if hc[0] < 10 :
-              query = f"update login_details as hl set hl.hospitalid =  {hid} where hl.mail = '{mail}' "
+              query = f"update login_details as hl set hl.hospitalid =  {hid}, hl.vaccinedate = curdate() where hl.mail = '{mail}' "
               cursor.execute(query)
               con.commit()
               br = input("Slot Successsfully Booked Press Enter to Logout\n")
