@@ -1,5 +1,4 @@
 import mysql.connector as c
-from mysql.connector import Error
 
 con  = c.connect(host='remotemysql.com',
                 database='vb3RXxTpJE',
